@@ -21,7 +21,9 @@
 }
 
 body {
-
+    background: radial-gradient(circle at bottom right, #0F0FFF 0%, transparent 60%),
+                radial-gradient(circle at top left, #02023A 0%, #01011A 70%);
+    background-blend-mode: screen;
     background-blend-mode: screen;
     color: var(--text-white);
     overflow-x: hidden;
@@ -1399,6 +1401,7 @@ body {
         margin-bottom: 10px;
     }
 }
+
 
 
 
