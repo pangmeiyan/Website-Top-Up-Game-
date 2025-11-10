@@ -278,7 +278,7 @@
 }
 /* hero-section */
 .hero-section{
-  background: url(/img/hero.png) no-repeat;
+background: url(../../img/hero.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -345,7 +345,7 @@
 }
 /* bundle */
 .bundle{
-  background: url(/img/94.png) no-repeat;
+  background: url(../../img/94.png) no-repeat;
   width: 100%;
   height: auto;
   z-index: 1;
@@ -477,4 +477,5 @@
   .footer-icon a {
     padding: 0 8px;
   }
+
 }
