@@ -20,7 +20,9 @@
 }
 body {
     font-family: 'Inter', sans-serif;
-    background: url(../../img/image\ 48.png) no-repeat;
+    background: radial-gradient(circle at bottom right, #0F0FFF 0%, transparent 60%),
+                radial-gradient(circle at top left, #02023A 0%, #01011A 70%);
+    background-blend-mode: screen;
     color: var(--text-white);
     overflow-x: hidden;
     min-height: 100vh;
@@ -137,7 +139,7 @@ body {
 /* Main Container */
 .main-container {
     display: flex;
-    margin-top: 50px;
+    padding: 20px 0px 20px 0px;
     min-height: calc(100vh - 50px);
 }
 /* Left Sidebar */
@@ -371,9 +373,75 @@ body {
     max-width: none;
 }
 .page-title {
-    font-size: 42px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 800;
     color: var(--text-white);
+    letter-spacing: 1px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 8px;
+    animation: fadeInDown 0.8s ease;
+}
+.page-subtitle {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    animation: fadeInUp 1s ease;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 992px){
+    .page-title {
+        margin-top: 20px;
+        font-size: 34px;
+        text-align: center;
+  }
+
+  .page-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .page-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .page-title {
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  .page-subtitle {
+    font-size: 14px;
+    text-align: center;
+  }
 }
 /* Content Cards */
 .content-card {
@@ -1571,4 +1639,3 @@ body {
         transform: translateY(0);
     }
 }
-
