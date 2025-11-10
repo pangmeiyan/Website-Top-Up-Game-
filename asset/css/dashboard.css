@@ -20,7 +20,7 @@
 }
 body {
     font-family: 'Inter', sans-serif;
-    background: url(/img/image\ 48.png) !important;
+    background: url(../../img/image\ 48.png) no-repeat;
     color: var(--text-white);
     overflow-x: hidden;
     min-height: 100vh;
@@ -1571,3 +1571,4 @@ body {
         transform: translateY(0);
     }
 }
+
