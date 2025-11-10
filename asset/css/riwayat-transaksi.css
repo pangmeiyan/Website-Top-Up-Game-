@@ -25,7 +25,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: url(../../img/image\ 48.png) no-repeat;
+
     color: var(--text-white);
     overflow-x: hidden;
     min-height: 100vh;
@@ -1143,6 +1143,7 @@ html, body {
         gap: 18px;
     }
 }
+
 
 
 
