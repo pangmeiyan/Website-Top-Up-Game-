@@ -278,7 +278,7 @@
 }
 /* hero-section */
 .hero-section {
-  background: url(/img/hero.png) no-repeat;
+  background: url(../../img/hero.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -373,7 +373,7 @@
 /* why choose us */
 .why {
   position: relative;
-  background: url(/img/94.png) no-repeat center top;
+  background: url(../../img/94.png) no-repeat center top;
   background-size: cover;
   width: 100%;
   height: auto;
@@ -574,3 +574,4 @@
   object-position: center;
   border-radius: 50%;
 }
+
