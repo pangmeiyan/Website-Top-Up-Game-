@@ -278,7 +278,7 @@
 }
 /* hero-section */
 .hero-section{
-  background: url(/img/hero.png) no-repeat;
+  background: url(../../img/hero.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -571,7 +571,7 @@
 }
 /*  top up in 4 easy steps  */
 .easy-steps{
-  background: url(/img/94.png) no-repeat;
+  background: url(../../img/94.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -775,4 +775,5 @@
   .footer-icon a {
     padding: 0 8px;
   }
+
 }
