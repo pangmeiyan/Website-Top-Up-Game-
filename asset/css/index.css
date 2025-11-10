@@ -279,7 +279,7 @@
 
 /* hero-section */
 .hero-section{
-  background: url(/img/index-hero.png) no-repeat; 
+  background: url(../../img/index-hero.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -382,7 +382,7 @@
 }
 /* most popular */
 .most-popular{
-  background: url(/img/most-popular.png) no-repeat;
+  background: url(../../img/most-popular.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -615,7 +615,7 @@
 }
 /* What Players Say */
 .testimonial{
-  background: url(/img//testi-bg.png) no-repeat;
+  background: url(../../img/testi-bg.png) no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -842,4 +842,5 @@
   .footer-icon a {
     padding: 0 8px;
   }
+
 }
